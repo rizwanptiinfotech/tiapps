@@ -93,7 +93,7 @@ app.post("/api/getgraphdata", (req, res) => {
     };
   }
 
-    // connect to your sql database
+    // connect to your sql database to get the graphic data
     sql.connect(config, function (err) {
 
       if (err) console.log(err);  
