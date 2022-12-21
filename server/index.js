@@ -93,7 +93,7 @@ app.post("/api/getgraphdata", (req, res) => {
     };
   }
 
-    // connect to your sql database to get the graphic data for jenkin auto run dated on 21 Dec 2022
+    // connect to your sql database to get the graphic data for jenkin auto commit dated on 21 Dec 2022
     sql.connect(config, function (err) {
 
       if (err) console.log(err);  
