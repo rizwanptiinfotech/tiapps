@@ -93,7 +93,7 @@ app.post("/api/getgraphdata", (req, res) => {
     };
   }
 
-    // connect to your sql database to get the graphic data for jenkins pipeline commit dated on 28 Dece 2022
+    // connect to your sql database to get the graphic data for jenkins pipeline commit 1 dated on 28 Dece 2022
     sql.connect(config, function (err) {
 
       if (err) console.log(err);  
