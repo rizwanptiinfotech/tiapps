@@ -52,6 +52,11 @@ app.use(bodyParser.json());
 // });    
 
 
+app.get('/',function(req,res) {
+  res.send("Hello World");
+});
+
+
 app.post("/api/getgraphdata", (req, res) => {
   //console.log(req.body);
   var sql = require('mssql'); 
