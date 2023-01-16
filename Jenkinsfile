@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                sh "cd client"
                 sh "sudo npm run build"
             }
         }
